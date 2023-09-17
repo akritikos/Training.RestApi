@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9339269E-D861-4B94-B1CA-DD1719AF4AB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Api", "src\Movies.Api\Movies.Api.csproj", "{63834D7B-091F-48FB-BF16-78B9B7B39ACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Data", "src\Movies.Data\Movies.Data.csproj", "{DDB1A32F-B227-4DB6-88B1-B001069CD3E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{8CD39965-DB3F-4104-AD9A-E9EF32C283A8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		.globalconfig = .globalconfig
+		.runsettings = .runsettings
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+		dotnet.ruleset = dotnet.ruleset
+		GitVersion.yml = GitVersion.yml
+		stylecop.json = stylecop.json
+		xunit.runner.json = xunit.runner.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4ABCA526-2628-4C32-B41C-97F79B2755B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.ApiTests", "Movies.ApiTests\Movies.ApiTests.csproj", "{AB3CF983-8655-4FD1-8CBD-0385805D4CDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63834D7B-091F-48FB-BF16-78B9B7B39ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63834D7B-091F-48FB-BF16-78B9B7B39ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63834D7B-091F-48FB-BF16-78B9B7B39ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63834D7B-091F-48FB-BF16-78B9B7B39ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB1A32F-B227-4DB6-88B1-B001069CD3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB1A32F-B227-4DB6-88B1-B001069CD3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB1A32F-B227-4DB6-88B1-B001069CD3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB1A32F-B227-4DB6-88B1-B001069CD3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3CF983-8655-4FD1-8CBD-0385805D4CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3CF983-8655-4FD1-8CBD-0385805D4CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3CF983-8655-4FD1-8CBD-0385805D4CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3CF983-8655-4FD1-8CBD-0385805D4CDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63834D7B-091F-48FB-BF16-78B9B7B39ACD} = {9339269E-D861-4B94-B1CA-DD1719AF4AB0}
+		{DDB1A32F-B227-4DB6-88B1-B001069CD3E6} = {9339269E-D861-4B94-B1CA-DD1719AF4AB0}
+		{AB3CF983-8655-4FD1-8CBD-0385805D4CDC} = {4ABCA526-2628-4C32-B41C-97F79B2755B0}
+	EndGlobalSection
+EndGlobal
